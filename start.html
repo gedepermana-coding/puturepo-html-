@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+.start {
+animation:  masuk 1s ease-out alternate-reverse infinite ;
+}
+
+@keyframes masuk {
+from{ opacity: 50; scale: 1.8; 
+}
+to{ opacity: 100; scale: 2;
+
+}
+
+}
+
+.bin {
+    animation: jatuh 2s ease-out infinite alternate;
+   font-size: 50px;
+}
+
+@keyframes jatuh {
+    from{ transform: translateY(-100px);
+
+    }
+    to{ transform: translateY(300px);
+
+    }
+}
+
+</style>
+
+<body class="st">
+    <button class="start"> START</button>
+
+    <p class="bin"> &#127775;</p>
+</body>
+</html>
